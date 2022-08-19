@@ -1,0 +1,6 @@
+what is nodeJS ? 
+allows us to run the JS on the server 
+
+machine code => Assembly => C++ => V8 engine =>  Nodejs
+      ^=================================|
+
