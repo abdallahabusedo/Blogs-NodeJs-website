@@ -5,7 +5,7 @@ const blogRoutes = require('./routes/blogRoutes')
 // express app 
 const app = express()
 // connect with mongodb
-const dbURL = "mongodb+srv://posidoon:1234@blognode.m6l7krr.mongodb.net/blognode?retryWrites=true&w=majority"
+const dbURL = "<MongoDb URL>"
 mongoose.connect(dbURL, {useNewUrlParser: true, useUnifiedTopology: true})
     .then((result) =>{
         console.log("connected to the database");
